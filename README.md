@@ -52,6 +52,11 @@ Open **prometheus.yml** file and under scrape_configs modify with below lines:
 ![Screenshot 2024-06-15 at 8 36 48 PM](https://github.com/satyaDeepReddyKattegummula/nodeExporter-Prometheus/assets/100654557/b0b5c5d2-4b8a-4f33-9073-eaf72a6cce9c)
 
 
-Ones cganges are made save the file and run **$  ./prometheus**
+Ones changes are made save the file and run **$  ./prometheus**
 
 Once Prometheus is running you can view the Prometheus UI from **http://127.0.0.1:9090 **
+
+Go to Status > Targets You can see your node exporter endpoints
+![Screenshot 2024-06-15 at 8 40 00 PM](https://github.com/satyaDeepReddyKattegummula/nodeExporter-Prometheus/assets/100654557/b9a02123-f840-4154-b2ea-1059cb9603be)
+
+![Screenshot 2024-06-15 at 8 39 37 PM](https://github.com/satyaDeepReddyKattegummula/nodeExporter-Prometheus/assets/100654557/8f54dfe9-f272-4ecf-a842-f955bfde35c2)
