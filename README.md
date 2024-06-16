@@ -48,10 +48,10 @@ This process involves adding the node exporter's /metrics endpoint as a "scrape 
 By specifying the /metrics endpoint as a scrape target, you instruct Prometheus to periodically "scrape" or retrieve all the metrics exposed by the node exporter at that endpoint.
 
 Open **prometheus.yml** file and under scrape_configs modify with below lines:
-     **- job_name: "node_your_mac"
+    - job_name: "node_your_mac"
         static_configs:
-          - targets: ["localhost:9100"]"**
-
+            - targets: ["localhost:9100"]"
+            
 Ones cganges are made save the file and run **$  ./prometheus**
 
 Once Prometheus is running you can view the Prometheus UI from **http://127.0.0.1:9090 **
