@@ -22,7 +22,7 @@ To download the macOS version of the Prometheus node exporter, follow these step
 4. Open a terminal on your macOS system.
 5. Use the curl command to download the node exporter binary, replacing <node_exporter_download_url> with the actual download URL you copied in.
 
-example: $ curl -LO https://example.com/downloads/node_exporter-1.5.0.darwin-amd64.tar.gz
+example: **$ curl -LO https://example.com/downloads/node_exporter-1.5.0.darwin-amd64.tar.gz**
 
 Unzip the tar file
 **$ gunzip -c node_exporter-1.4.0.darwin-amd64.tar.gz| tar xopf -**
