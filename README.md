@@ -35,6 +35,7 @@ $ ./node_exporter**
 You can check that it's running by opening a browser at **http://127.0.0.1:9100/metrics**
 
 **STEP 2**
+
 You can use the same approch to download the Prometheus for Mac as of Node Exporter as we did in step 1.
 
 **$ curl -O 'https://github.com/prometheus/prometheus/releases/download/v2.40.1/prometheus-2.40.1.darwin-amd64.tar.gz' -L**
